@@ -1,0 +1,76 @@
+<script>
+var id = 74092323;
+var img_url = 'https://avatars1.githubusercontent.com/u/'+id+'?v=3&s=460'
+
+function SimpleController($scope) {
+	$scope.skills = [
+ { color: img_url, name: 'javascript', number: '0' },
+ { color:'2', name: 'javascript', number: '0' },
+ { color:'3', name: 'javascript', number: '0' },
+ { color:'1', name: 'c++', number: '0' },
+ { color:'2', name: 'c++', number: '0' },
+ { color:'3', name: 'c++', number: '0' },
+ { color:'1', name: 'java', number: '0' },
+ { color:'2', name: 'java', number: '0' },
+ { color:'3', name: 'java', number: '0' },
+ { color:'1', name: 'c#', number: '0' },
+ { color:'2', name: 'c#', number: '0' },
+ { color:'3', name: 'c#', number: '0' },
+ { color:'1', name: 'phython', number: '0' },
+ { color:'2', name: 'phython', number: '0' },
+ { color:'3', name: 'phython', number: '0' },
+ { color:'1', name: 'ruby', number: '0' },
+ { color:'2', name: 'ruby', number: '0' },
+ { color:'3', name: 'ruby', number: '0' },
+ { color:'1', name: 'html', number: '0' },
+ { color:'2', name: 'html', number: '0' },
+ { color:'3', name: 'html', number: '0' },
+ { color:'1', name: 'css', number: '0' },
+ { color:'2', name: 'css', number: '0' },
+ { color:img_url, name: 'css', number: '0' }
+];
+	
+	/*
+	var id_num = getrequest("users/idnum");
+	$scope.skills[1]["avatar"] = img_url;
+	
+
+	
+	var t_db_skills = getrequest("/users/getArray/skills");
+	$scope.skills = t_db_skills;
+	*/
+
+	$scope.achievements = [
+ { color:'1', name: '1st Commit', number: '0' },
+ { color:'2', name: '5th Commit', number: '0' },
+ { color:'3', name: '10th Commit', number: '0' },
+ { color:'4', name: '20th Commit', number: '0' },
+ { color:'5', name: '30th Commit', number: '0' },
+ { color:'6', name: '50th Commit', number: '0' },
+ { color:'7', name: '100th Commit', number: '0' },
+ { color:'1', name: '1st Javascript Commit', number: '0' },
+ { color:'2', name: '5th Javascript Commit', number: '0' },
+ { color:'3', name: '10th Javascript Commit', number: '0' },
+ { color:'4', name: '20th Javascript Commit', number: '0' },
+ { color:'1', name: '1st c# Commit', number: '0' },
+ { color:'2', name: '5th c# Commit', number: '0' },
+ { color:'3', name: '10th c# Commit', number: '0' },
+ { color:'4', name: '20th c# Commit', number: '0' },
+ { color:'1', name: '1st Phython Commit', number: '0' },
+ { color:'2', name: '5th Phython Commit', number: '0' },
+ { color:'3', name: '10th Phython Commit', number: '0' },
+ { color:'4', name: '20th Phython Commit', number: '0' },
+ { color:'1', name: '1st Ruby Commit', number: '0' },
+ { color:'2', name: '5nd Ruby Commit', number: '0' },
+ { color:'3', name: '10rd Ruby Commit', number: '0' },
+ { color:'4', name: '20th Ruby Commit', number: '0' },
+ { color:'1', name: '1st HTML Commit', number: '0' },
+ { color:'2', name: '5th HTML Commit', number: '0' },
+ { color:'3', name: '10th HTML Commit', number: '0' },
+ { color:'4', name: '20th HTML Commit', number: '0' },
+ { color:'1', name: '1st CSS Commit', number: '0' },
+ { color:'2', name: '5th CSS Commit', number: '0' },
+ { color:'3', name: '10th CSS Commit', number: '0' },
+ { color:'4', name: '20th CSS Commit', number: '0' }
+];
+}
